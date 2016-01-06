@@ -1,0 +1,15 @@
+startup_message off
+defscrollback 5000
+termcapinfo xterm* ti@:te@     # enable SHIFT-PGUP / SHIFT-PGDOWN scroll
+termcapinfo rxvt-unicode ti@:te@     # enable SHIFT-PGUP / SHIFT-PGDOWN scroll
+
+hardstatus alwayslastline
+#hardstatus string '%{gk}[%{G}%H%{g}][%= %{wk}%?%-Lw%?%{=b kR}(%{W}%n*%f %t%?(%u)%?%{=b kR})%{= kw}%?%+Lw%?%?%= %{g}]%{=b C}[%m/%d/%y %C %A]%{W}'
+#hardstatus alwayslastline "%{=}%-w%{+b w}%n %t%{-b w}%+w %=%c"
+#hardstatus string "%{.kc}%-w%{.kw}%n*%t%{-}%+w %= %c%a %d/%m/%Y" #black+cyan+normal+white selected
+hardstatus string '%{= kw} %{+b C}%H %{-}| %-Lw%{+b C}%n%f %t%{-}%+Lw %=| %{+b C}%c %d/%m/%Y'
+
+vbell off
+shell -$SHELL
+logtstamp on
+logtstamp after 1
