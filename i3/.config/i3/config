@@ -1,4 +1,5 @@
 # Pretty colours
+
 # Light Azure			88b8e1
 # Light cornflower blue		88c8f2
 # Moderate sapphire blue	4b5dab
@@ -70,8 +71,8 @@ bindsym $mod+a focus parent
 #bindsym $mod+d focus child
 
 # workspace names
-set $ws1 1:www
-set $ws2 2:term
+set $ws1 1:term
+set $ws2 2:www
 set $ws3 3:msg
 set $ws4 4:code
 set $ws5 5
@@ -107,7 +108,7 @@ bindsym $mod+Shift+0 move container to workspace $ws0
 
 # Assign windows to workspace
 assign [class="KeePass2"] $ws0
-assign [class="google-chrome"] $ws1
+assign [class="google-chrome"] $ws2
 assign [class="pidgin"] $ws3
 
 # reload the configuration file
@@ -204,7 +205,7 @@ exec --no-startup-id feh --bg-fill /home/wolfgang/Pictures/Wallpapers/1300347080
 exec --no-startup-id xss-lock -- i3lock-wrapper -l
 
 # Yay terminals and stuffs.
-exec --no-startup-id i3-msg 'workspace $ws1; exec google-chrome-stable; workspace $ws2; exec terminator; workspace $ws0; exec keepass; workspace $ws1'
+exec --no-startup-id i3-msg 'workspace $ws1; exec terminator; workspace $ws0; exec keepass; workspace $ws1'
 
 # Autostart apps that would autostart otherwise
 exec dex -ae i3
