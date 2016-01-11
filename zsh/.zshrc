@@ -88,3 +88,5 @@ source $ZSH/oh-my-zsh.sh
 if [[ -f /usr/share/doc/pkgfile/command-not-found.zsh ]]; then
   source /usr/share/doc/pkgfile/command-not-found.zsh
 fi
+
+alias wgetidxof='wget -c -m -nH --no-parent --reject "index.html*"'
