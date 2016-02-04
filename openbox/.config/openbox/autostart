@@ -1,0 +1,3 @@
+# Set wallpaper
+feh --bg-fill /home/wolfgang/Pictures/Wallpapers/1300347080883.png
+tint2 &
