@@ -1,151 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <openbox_menu xmlns="http://openbox.org/3.4/menu">
 
- <menu id="Accessories" label="Accessories" icon="/usr/share/icons/gnome/16x16/categories/gnome-util.png">
-      <item label="ArchUpdate" icon="/usr/share/pixmaps/archicon.png">
-       <action name="Execute"><execute>xterm -e archupdate.sh</execute></action>
-     </item>
-      <item label="Gxmessage" icon="/usr/share/icons/hicolor/48x48/apps/gxmessage.png">
-       <action name="Execute"><execute>gxmessage</execute></action>
-     </item>
-      <item label="KeePass Password Safe" icon="/usr/share/icons/hicolor/16x16/apps/keepass.png">
-       <action name="Execute"><execute>keepass</execute></action>
-     </item>
-      <item label="Redshift">
-       <action name="Execute"><execute>redshift-gtk</execute></action>
-     </item>
-      <item label="Root Terminal" icon="/usr/share/pixmaps/gksu-root-terminal.png">
-       <action name="Execute"><execute>gksu -l gnome-terminal</execute></action>
-     </item>
-      <item label="Xarchiver" icon="/usr/share/icons/hicolor/16x16/apps/xarchiver.png">
-       <action name="Execute"><execute>xarchiver</execute></action>
-     </item>
-      <item label="ownCloud desktop sync client " icon="/usr/share/icons/hicolor/22x22/apps/owncloud.png">
-       <action name="Execute"><execute>owncloud</execute></action>
-     </item>
- </menu> <!-- Accessories -->
- <menu id="Games" label="Games" icon="/usr/share/icons/gnome/16x16/categories/gnome-joystick.png">
-      <item label="GZDoom" icon="/usr/share/pixmaps/gzdoom.png">
-       <action name="Execute"><execute>gzdoom </execute></action>
-     </item>
-      <item label="Steam" icon="/usr/share/icons/hicolor/16x16/apps/steam.png">
-       <action name="Execute"><execute>/usr/bin/steam </execute></action>
-     </item>
-      <item label="Steam (steam runtime)" icon="/usr/share/icons/hicolor/16x16/apps/steam.png">
-       <action name="Execute"><execute>env STEAM_RUNTIME=1 steam </execute></action>
-     </item>
-      <item label="Steam (wrapper)" icon="/usr/share/icons/hicolor/16x16/apps/steam.png">
-       <action name="Execute"><execute>/usr/bin/steam-wrapper </execute></action>
-     </item>
- </menu> <!-- Games -->
- <menu id="Graphics" label="Graphics" icon="/usr/share/icons/gnome/16x16/categories/gnome-graphics.png">
-      <item label="feh" icon="///usr/share/feh/images/feh.png">
-       <action name="Execute"><execute>feh </execute></action>
-     </item>
- </menu> <!-- Graphics -->
- <menu id="Internet" label="Internet" icon="/usr/share/icons/gnome/16x16/categories/gnome-globe.png">
-      <item label="Avahi SSH Server Browser" icon="/usr/share/icons/gnome/16x16/devices/network-wired.png">
-       <action name="Execute"><execute>/usr/bin/bssh</execute></action>
-     </item>
-      <item label="Avahi VNC Server Browser" icon="/usr/share/icons/gnome/16x16/devices/network-wired.png">
-       <action name="Execute"><execute>/usr/bin/bvnc</execute></action>
-     </item>
-      <item label="Dropbox" icon="/usr/share/pixmaps/dropbox.png">
-       <action name="Execute"><execute>dropbox</execute></action>
-     </item>
-      <item label="Google Chrome" icon="/usr/share/icons/hicolor/16x16/apps/google-chrome.png">
-       <action name="Execute"><execute>/usr/bin/google-chrome-stable </execute></action>
-     </item>
-      <item label="Pidgin Internet Messenger" icon="/usr/share/icons/hicolor/16x16/apps/pidgin.png">
-       <action name="Execute"><execute>pidgin</execute></action>
-     </item>
-      <item label="Steam" icon="/usr/share/icons/hicolor/16x16/apps/steam.png">
-       <action name="Execute"><execute>/usr/bin/steam </execute></action>
-     </item>
-      <item label="Steam (steam runtime)" icon="/usr/share/icons/hicolor/16x16/apps/steam.png">
-       <action name="Execute"><execute>env STEAM_RUNTIME=1 steam </execute></action>
-     </item>
-      <item label="Steam (wrapper)" icon="/usr/share/icons/hicolor/16x16/apps/steam.png">
-       <action name="Execute"><execute>/usr/bin/steam-wrapper </execute></action>
-     </item>
- </menu> <!-- Internet -->
- <menu id="Office" label="Office" icon="/usr/share/icons/gnome/16x16/categories/gnome-applications.png">
-      <item label="Atril Document Viewer" icon="/usr/share/icons/hicolor/16x16/apps/atril.png">
-       <action name="Execute"><execute>atril </execute></action>
-     </item>
- </menu> <!-- Office -->
- <menu id="Programming" label="Programming" icon="/usr/share/icons/gnome/16x16/categories/gnome-devel.png">
-      <item label="CMake" icon="/usr/share/icons/hicolor/32x32/apps/CMakeSetup.png">
-       <action name="Execute"><execute>cmake-gui </execute></action>
-     </item>
-      <item label="PyCharm Community Edition">
-       <action name="Execute"><execute>"/opt/pycharm-community/bin/pycharm.sh" </execute></action>
-     </item>
-      <item label="Visual Studio Code" icon="/usr/share/icons/visual-studio-code.png">
-       <action name="Execute"><execute>/usr/bin/visual-studio-code</execute></action>
-     </item>
- </menu> <!-- Programming -->
- <menu id="Sound &amp; Video" label="Sound &amp; Video" icon="/usr/share/icons/gnome/16x16/categories/gnome-multimedia.png">
-      <item label="PulseAudio System Tray" icon="/usr/share/pixmaps/pasystray.png">
-       <action name="Execute"><execute>pasystray</execute></action>
-     </item>
-      <item label="PulseAudio Volume Control" icon="/usr/share/icons/gnome/16x16/apps/multimedia-volume-control.png">
-       <action name="Execute"><execute>pavucontrol</execute></action>
-     </item>
-      <item label="Qt V4L2 test Utility" icon="/usr/share/icons/hicolor/16x16/apps/qv4l2.png">
-       <action name="Execute"><execute>qv4l2</execute></action>
-     </item>
-      <item label="Rhythmbox" icon="/usr/share/icons/hicolor/16x16/apps/rhythmbox.png">
-       <action name="Execute"><execute>rhythmbox </execute></action>
-     </item>
- </menu> <!-- Sound & Video -->
- <menu id="System Tools" label="System Tools" icon="/usr/share/icons/gnome/16x16/categories/gnome-system.png">
-      <item label="Avahi Zeroconf Browser" icon="/usr/share/icons/gnome/16x16/devices/network-wired.png">
-       <action name="Execute"><execute>/usr/bin/avahi-discover</execute></action>
-     </item>
-      <item label="CrashPlan" icon="/usr/share/icons/hicolor/16x16/apps/crashplan.png">
-       <action name="Execute"><execute>/opt/crashplan/bin/CrashPlanDesktop</execute></action>
-     </item>
-      <item label="File Manager PCManFM" icon="/usr/share/icons/gnome/16x16/apps/system-file-manager.png">
-       <action name="Execute"><execute>pcmanfm </execute></action>
-     </item>
-      <item label="Htop" icon="/usr/share/pixmaps/htop.png">
-       <action name="Execute"><execute>xterm -e htop</execute></action>
-     </item>
-      <item label="Terminator" icon="/usr/share/icons/hicolor/16x16/apps/terminator.png">
-       <action name="Execute"><execute>terminator</execute></action>
-     </item>
-      <item label="Tint2 panel">
-       <action name="Execute"><execute>tint2</execute></action>
-     </item>
-      <item label="UXTerm" icon="/usr/share/pixmaps/xterm-color_48x48.xpm">
-       <action name="Execute"><execute>uxterm</execute></action>
-     </item>
-      <item label="Virtual Machine Manager" icon="/usr/share/icons/hicolor/16x16/apps/virt-manager.png">
-       <action name="Execute"><execute>virt-manager</execute></action>
-     </item>
-      <item label="XTerm" icon="/usr/share/pixmaps/xterm-color_48x48.xpm">
-       <action name="Execute"><execute>xterm</execute></action>
-     </item>
- </menu> <!-- System Tools -->
-
-<menu id="root-menu" label="Openbox 3">
-  <!--<menu id="applications" label="Applications" execute="xdg_menu --format openbox3-pipe --root-menu /etc/xdg/menus/arch-applications.menu" />-->
-  <menu id="Accessories" label="Accessories" icon="/usr/share/icons/gnome/16x16/categories/gnome-util.png" />
-  <menu id="Games" label="Games" icon="/usr/share/icons/gnome/16x16/categories/gnome-joystick.png" />
-  <menu id="Graphics" label="Graphics" icon="/usr/share/icons/gnome/16x16/categories/gnome-graphics.png" />
-  <menu id="Internet" label="Internet" icon="/usr/share/icons/gnome/16x16/categories/gnome-globe.png" />
-  <menu id="Office" label="Office" icon="/usr/share/icons/gnome/16x16/categories/gnome-applications.png" />
-  <menu id="Programming" label="Programming" icon="/usr/share/icons/gnome/16x16/categories/gnome-devel.png" />
-  <menu id="Sound &amp; Video" label="Sound &amp; Video" icon="/usr/share/icons/gnome/16x16/categories/gnome-multimedia.png" />
-  <menu id="System Tools" label="System Tools" icon="/usr/share/icons/gnome/16x16/categories/gnome-system.png" />
-  <separator />
+<menu id="openbox" label="Openbox">
+  <item label="Obconf">
+    <action name="Execute">
+      <startupnotify>
+        <enabled>true</enabled>
+        <name>obconf</name>
+      </startupnotify>
+      <command>obconf</command>
+    </action>
+  </item>
   <item label="Reconfigure">
     <action name="Reconfigure"/>
   </item>
-  <item label="Log Out">
+  <item label="Restart">
+    <action name="Restart" />
+  </item>
+</menu>
+
+<menu id="preferences" label="Preferences">
+  <item label="LXappearance">
+    <action name="Execute">
+      <startupnotify>
+        <enabled>true</enabled>
+        <name>lxappearance</name>
+      </startupnotify>
+      <command>lxappearance</command>
+    </action>
+  </item>
+
+  <item label="Tint2 config">
+    <action name="Execute">
+      <startupnotify>
+        <enabled>true</enabled>
+        <name>tint2conf</name>
+      </startupnotify>
+      <command>tint2conf</command>
+    </action>
+  </item>
+</menu>
+
+<menu id="root-menu" label="Openbox 3">
+  <separator label="Applications" />
+  <item label="Google Chrome">
+    <action name="Execute"><execute>/usr/bin/google-chrome-stable </execute></action>
+  </item>
+  <item label="Terminator">
+    <action name="Execute"><execute>/usr/bin/terminator</execute></action>
+  </item>
+
+  <menu id="applications" label="Applications" execute="xdg_menu --format openbox3-pipe --root-menu /etc/xdg/menus/arch-applications.menu" />
+  <menu id="preferences" label="Preferences" />
+  <menu id="recents" label="Recent documents" execute="/home/wolfgang/dotfiles/helpers/openbox-recent-documents.sh" />
+
+  <separator label="Session" />
+  <menu id="openbox" label="Openbox"/>
+  <item label="Lock">
+    <action name="Execute">
+      <execute>loginctl lock-session</execute>
+    </action>
+  </item>
+  <item label="Logout">
     <action name="Exit">
       <prompt>yes</prompt>
+    </action>
+  </item>
+  <item label="Shutdown">
+    <action name="Execute">
+      <startupnotify>
+        <enabled>true</enabled>
+        <name>oblogut</name>
+      </startupnotify>
+      <command>oblogout</command>
     </action>
   </item>
 </menu>

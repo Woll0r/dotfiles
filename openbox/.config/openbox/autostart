@@ -1,3 +1,14 @@
+# Desktop locker
+xss-lock -- i3lock-wrapper -l &
+
+# Compositing
+xcompmgr &
+
 # Set wallpaper
 feh --bg-fill /home/wolfgang/Pictures/Wallpapers/1300347080883.png
-tint2 &
+
+# Panel
+(sleep 1 && tint2) &
+
+# Battery applet
+mate-power-manager &

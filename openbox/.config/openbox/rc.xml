@@ -316,13 +316,13 @@
       </action>
     </keybind>
     <!-- Keybindings for running applications -->
-    <keybind key="W-e">
+    <keybind key="A-F2">
       <action name="Execute">
         <startupnotify>
           <enabled>true</enabled>
-          <name>Konqueror</name>
+          <name>gmrun</name>
         </startupnotify>
-        <command>kfmclient openProfile filemanagement</command>
+        <command>gmrun</command>
       </action>
     </keybind>
     <keybind key="XF86AudioRaiseVolume">

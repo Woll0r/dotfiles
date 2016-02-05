@@ -15,6 +15,7 @@
 [plugins]
 [profiles]
   [[default]]
+    background_darkness = 0.76
     background_image = None
     background_type = transparent
     show_titlebar = False
