@@ -90,3 +90,5 @@ if [[ -f /usr/share/doc/pkgfile/command-not-found.zsh ]]; then
 fi
 
 alias wgetidxof='wget -c -m -nH --no-parent --reject "index.html*"'
+
+export EDITOR=nano
