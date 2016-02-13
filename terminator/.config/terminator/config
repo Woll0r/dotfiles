@@ -3,6 +3,7 @@
   tab_position = bottom
   title_hide_sizetext = True
 [keybindings]
+  full_screen = <Primary>F11
 [layouts]
   [[default]]
     [[[child1]]]
