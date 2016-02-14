@@ -1,5 +1,5 @@
 # Desktop locker
-xss-lock -- i3lock-wrapper -l &
+#xss-lock -- i3lock-wrapper -l &
 
 # Compositing
 xcompmgr &
