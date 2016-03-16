@@ -53,7 +53,8 @@
     <action name="Execute"><execute>pcmanfm </execute></action>
   </item>
 
-  <menu id="applications" label="Applications" execute="xdg_menu --format openbox3-pipe --root-menu /etc/xdg/menus/arch-applications.menu" />
+  <!--<menu id="applications" label="Applications" execute="xdg_menu --format openbox3-pipe --root-menu /etc/xdg/menus/arch-applications.menu" />-->
+  <menu id="applications" label="Applications" execute="openbox-menu arch-applications.menu" />
   <menu id="preferences" label="Preferences" />
   <menu id="recents" label="Recent documents" execute="/home/wolfgang/dotfiles/helpers/openbox-recent-documents.sh" />
 
