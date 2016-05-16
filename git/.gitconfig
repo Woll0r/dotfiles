@@ -1,6 +1,34 @@
+
 # This is Git's per-user configuration file.
 [user]
 name = Minuette
 email = wolfgang@cardboardbox.be
+
 [push]
-default = simple
+default = tracking
+
+[apply]
+whitespace = fix
+
+[color]
+ui = auto
+
+[merge]
+defaulttoupstream = true
+
+[alias]
+incoming = "!git remote update -p; git log --pretty=oneline --abbrev-commit --abbrev=8 ..@{u}"
+outgoing = "log --pretty=oneline --abbrev-commit --abbrev=8 @{u}.."
+co = checkout
+st = status
+sl = log --pretty=oneline --abbrev-commit --abbrev=8
+sm = submodule
+smu = submodule update --init
+up = remote update
+glog = log --graph --abbrev-commit --decorate --pretty=format:'%C(yellow)%h%Creset -%C(yellow)%d%Creset %s %C(cyan)%ce%Creset %C(green)(%cr)%Creset' --date=relative
+
+[diff]
+renames = true
+
+[git-p4]
+skipsubmitedit = true
